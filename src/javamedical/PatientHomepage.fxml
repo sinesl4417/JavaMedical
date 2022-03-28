@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javamedical.PatientHomepageController">
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #3474bc;" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <StackPane prefHeight="50.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER_LEFT">
+               <image>
+                  <Image url="@images/javamedical.png" />
+               </image>
+               <StackPane.margin>
+                  <Insets left="10.0" />
+               </StackPane.margin>
+            </ImageView>
+            <Button fx:id="homebutton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#homeScreen" prefHeight="35.0" prefWidth="35.0" style="-fx-background-size: 100%; -fx-background-color: transparent;" textAlignment="RIGHT" StackPane.alignment="CENTER_RIGHT">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/homebuttonblue.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <StackPane.margin>
+                  <Insets right="10.0" />
+               </StackPane.margin>
+               <rotationAxis>
+                  <Point3D />
+               </rotationAxis>
+            </Button>
+         </children>
+      </StackPane>
+   </top>
+</BorderPane>
